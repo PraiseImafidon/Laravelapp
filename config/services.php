@@ -14,6 +14,11 @@ return [
     |
     */
 
+    //configure google analytics 4 measurement ID
+    'ga4' => [
+        'measurementId' => env('GA_MEASUREMENT_ID'),
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
